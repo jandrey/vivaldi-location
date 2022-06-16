@@ -1,5 +1,5 @@
-[action-image]: https://github.com/jandreyoliveira/vivaldi-location/workflows/CI/badge.svg
-[action-url]: https://github.com/jandreyoliveira/vivaldi-location/actions?query=workflow%3ACI
+[action-image]: https://github.com/jandrey/vivaldi-location/workflows/CI/badge.svg
+[action-url]: https://github.com/jandrey/vivaldi-location/actions?query=workflow%3ACI
 [npm-image]: https://img.shields.io/npm/v/vivaldi-location.svg
 [npm-url]: https://npmjs.org/package/vivaldi-location
 
