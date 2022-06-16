@@ -11,7 +11,7 @@
     "vivaldi-location": "bin.js"
   },
   "name": "vivaldi-location",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Approximates the current location of the Vivaldi browser across platforms.",
   "main": "module.js",
   "author": {
