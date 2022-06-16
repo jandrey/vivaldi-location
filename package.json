@@ -1,0 +1,46 @@
+{
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jandrey/vivaldi-location.git"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "bin": {
+    "vivaldi-location": "bin.js"
+  },
+  "name": "vivaldi-location",
+  "version": "1.0.1",
+  "description": "Approximates the current location of the Vivaldi browser across platforms.",
+  "main": "module.js",
+  "author": {
+    "name": "Jandrey Oliveira",
+    "email": "jandreyoliveira@gmail.com",
+    "url": "https://jandrey.net"
+  },
+  "scripts": {
+    "test": "jasmine"
+  },
+  "files": [
+    "module.js",
+    "bin.js",
+    "scan"
+  ],
+  "keywords": [
+    "vivaldi",
+    "browser",
+    "spawn",
+    "location",
+    "process",
+    "guesstimate"
+  ],
+  "dependencies": {
+    "userhome": "^1.0.0",
+    "which": "^2.0.2"
+  },
+  "devDependencies": {
+    "jasmine": "^4.2.0",
+    "mock-require": "^3.0.3"
+  }
+}
