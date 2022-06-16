@@ -25,8 +25,7 @@ describe('vivaldi-location', function () {
     const { spawnSync } = require( 'child_process' );
     const output = spawnSync(location);
 
-    expect(fs.existsSync(location)).toBe(true)
-    expect(output.stdout.toString()).toBe(location)
+    expect(output.stdout).toBe(location)
     done()
   })
 })
